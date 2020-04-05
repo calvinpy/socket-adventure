@@ -206,7 +206,7 @@ class Server(object):
         
         For example, if the input buffer contains "say Is anybody here?" then `route`
         should invoke `self.say("Is anybody here?")`. If the input buffer contains
-        "move north", then `route` should invoke `self.move("north")`.
+        "move ddddnorth", then `route` should invoke `self.move("north")`.
         
         :return: None
         """
